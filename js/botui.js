@@ -26,16 +26,16 @@ function bot_ui_ini() {
     }).then(function () {
         botui.message.add({
             delay: 1100,
-            content: "这里�? RagdoLL"
+            content: "这里是 RagdoLL "
         }).then(function () {
             botui.message.add({
                 delay: 1100,
-                content: "一�?刚刚毕业的社畜~"
+                content: "一个刚刚毕业的社畜~"
             }).then(function () {
                 botui.action.button({
                     delay: 1600,
                     action: [{
-                        text: "然后�?�? 😃",
+                        text: "然后呢？ 😃",
                         value: "sure"
                     }, {
                         text: "少废话！ 🙄",
@@ -65,32 +65,32 @@ function bot_ui_ini() {
         secondpart = function () {
             botui.message.add({
                 delay: 1500,
-                content: "�?前在深圳某手机厂里做底层开�?"
+                content: "目前在深圳某手机厂里做底层开发"
             }).then(function () {
                 botui.message.add({
                     delay: 1500,
-                    content: "�?来不想干这一行的，�??报天坑志愿，当大三突然不当咸鱼时已经到�?�找实习了…各种原因选了这个方向（恼"
+                    content: "本来不想干这一行的，误报天坑志愿，当大三突然不当咸鱼时已经到要找实习了…各种原因选了这个方向（恼"
                 }).then(function () {
                     botui.message.add({
                         delay: 1200,
-                        content: "事实上�?�的东西和现在做的�??不搭边，也相当于从零开始了"
+                        content: "事实上学的东西和现在做的毫不搭边，也相当于从零开始了"
                     }).then(function () {
                         botui.message.add({
                             delay: 1500,
-                            content: "每天都在纠结要不要早下班（组内的包括导师好！！卷！！�?   希望�?己也能努力T T"
+                            content: "每天都在纠结要不要早下班（组内的包括导师好！！卷！！！   希望自己也能努力T T"
                         }).then(function () {
                             botui.message.add({
                                 delay: 1500,
-                                content: "无聊时是个Gamer，PC / Switch, 有时也看看番（已退�?"
+                                content: "无聊时是个Gamer，PC / Switch, 有时也看看番（已退坑"
                             }).then(function () {
                                 botui.message.add({
                                     delay: 1800,
-                                    content: "很想学烘培，希望有一天能够开一家自己的咖啡馆＆烘培�?"
+                                    content: "很想学烘培，希望有一天能够开一家自己的咖啡馆＆烘培屋"
                                 }).then(function () {
                                     botui.action.button({
                                         delay: 1100,
                                         action: [{
-                                            text: "为什么叫RagdoLL�?�? �??",
+                                            text: "为什么叫RagdoLL呢？ 🤔",
                                             value: "why-RagdoLL"
                                         }]
                                     }).then(function (a) {
@@ -106,12 +106,12 @@ function bot_ui_ini() {
         thirdpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "RagdoLL英文�?布偶�?，一直想养一�? OvO"
+                content: "RagdoLL英文是布偶猫，一直想养一只 OvO"
             }).then(function () {
                 botui.action.button({
                     delay: 1500,
                     action: [{
-                        text: "为什么是布偶�?�?�? �??",
+                        text: "为什么是布偶猫呢？ 🤔",
                         value: "why-cat"
                     }]
                 }).then(function (a) {
@@ -122,16 +122,16 @@ function bot_ui_ini() {
         fourthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "因为小仙女布偶猫�?�?爱了�? "
+                content: "因为小仙女布偶猫太可爱了… "
             }).then(function () {
                 botui.message.add({
                     delay: 1100,
-                    content: "我真的好想养一�?！！(没钱T T，�?�上�?也不敢养�?"
+                    content: "我真的好想养一只！！(没钱T T，要上班也不敢养啊"
                 }).then(function () {
                     botui.action.button({
                         delay: 1500,
                         action: [{
-                            text: "以后会考虑养嘛(�? �?_�?)�?",
+                            text: "以后会考虑养嘛(ง •_•)ง",
                             value: "why-next"
                         }]
                     }).then(function (a) {
@@ -143,11 +143,11 @@ function bot_ui_ini() {
         fifthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "emmmm，有机会的话�?定会的啦"
+                content: "emmmm，有机会的话肯定会的啦"
             }).then(function () {
                 botui.message.add({
                     delay: 1600,
-                    content: "那么，仔细看看我的博客吧�? ^_^"
+                    content: "那么，仔细看看我的博客吧？ ^_^"
                 })
             })
         } 
